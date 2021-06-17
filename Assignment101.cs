@@ -12,6 +12,7 @@ namespace ConsoleApp11
 
             while (value == false)
             {
+                Console.WriteLine("hello");
                 Console.WriteLine("Please choose one from the following:");
                 Console.WriteLine("\n 1.GetRectangleLength \n 2.ChangeRectangleLength \n 3.GetRectangleWidth \n 4.ChangeRectangleWidth \n 5.Get Rectangle Perimeter \n 6.Get Rectangle Perimeter.");
                 String options = Console.ReadLine();
@@ -28,7 +29,7 @@ namespace ConsoleApp11
                         if (length <= 0)
                         {
                             Console.WriteLine("Length should bt greater than 0");
-                            Console.WriteLine("Enter Length of rect");
+                            Console.WriteLine("Enter Length");
                             length = Convert.ToInt32(Console.ReadLine());
                             Console.WriteLine("Length of the Rectangle is {0}", length);
                         }
