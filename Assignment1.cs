@@ -68,7 +68,10 @@ namespace ConsoleApp11
                         int Area = obj.GetArea();
                         Console.WriteLine("Area of the Rectangle is {0}", Area);
                         break;
-                   
+                    case "7":
+                        Console.WriteLine("Exit.");
+                        value = true;
+                        break;
                 }
             }
         }
