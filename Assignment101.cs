@@ -28,7 +28,7 @@ namespace ConsoleApp11
                         if (length <= 0)
                         {
                             Console.WriteLine("Length should bt greater than 0");
-                            Console.WriteLine("Enter Length");
+                            Console.WriteLine("Enter Length of rect");
                             length = Convert.ToInt32(Console.ReadLine());
                             Console.WriteLine("Length of the Rectangle is {0}", length);
                         }
